@@ -1,5 +1,5 @@
 h1{
-    color: rgb(255, 0, 0);
+    color: rgb(0, 11, 112);
     font-size: 50px;
 }
 
@@ -7,7 +7,7 @@ h1{
 
 
 p {
-    color:black rgb(0, 0, 0.5);
+    color:#000000 rgb(0, 0, 0);
     font-size: 20px;
 }
 
@@ -19,9 +19,25 @@ h2 {
 
   
 a{
-    color: rebeccapurple;
+    color: #f34d9d;
 font-size: 20px;
 }
 html{
-    background-color: rgb(216, 214, 214);
+    background-color: rgb(255, 255, 255);
 }
+h1{
+    text-align: center;
+}
+div {
+   margin-left: 170px;
+}
+ div, h2{
+    margin-left: 20px;
+ }
+ div, img{
+    margin-left:150px;
+ }
+   
+    
+    h2{color: 9887;
+    }
