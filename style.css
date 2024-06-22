@@ -12,7 +12,7 @@ p {
 }
 
 h2 {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0,05);
     font-size: 30px;
 }
 
@@ -25,4 +25,3 @@ font-size: 20px;
 html{
     background-color: rgb(216, 214, 214);
 }
-
