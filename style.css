@@ -75,4 +75,19 @@ a {
     background-color: pink;
    width: 50%;
 }
+.redes{
+    display: flex;
+}
+.rede{
+    border: 2px black solid ;
+     padding: 20px;
+    border-radius: 5px;
+     
+}
 
+.rede:hover{
+    background-color: black;
+color: aliceblue;
+
+     
+}
