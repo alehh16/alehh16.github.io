@@ -19,41 +19,39 @@ a {
     margin: 0 auto;
 }
 .cabecalho {
+    margin-top: 24px;
     display: flex;
     justify-content: space-between;
     background-color: blue;
+    
 
 }
 
 .logo {
     display: flex;
-    background-color: brown;
     align-items: center;
 }
 
 .menu-navegacao {
     display: flex;
-    background-color: blueviolet;
 }
 
-.estica {
-    background-color: burlywood;
-}
+
 
 .item {
     font-size: 16px;
     padding: 7px;
     margin: 9px;
+    text-transform: capitalize;
 
 }
 
 .botao {
-    padding: 5px 70px 10px 70px;
-    margin: 5px;
     font-size: 12px;
     background-color: rgb(0, 0, 0);
     color: #ffffff;
     font-weight: 600;
+    display: block;
 }
 
 .texto1 {
@@ -68,11 +66,9 @@ a {
     padding: 20px 50px 0px 50px;
 }
 .apresentacao{
-    background-color: aqua;
     display:flex ;
 }
 .foto{
-    background-color: pink;
    width: 50%;
 }
 .redes{
@@ -88,6 +84,16 @@ a {
 .rede:hover{
     background-color: black;
 color: aliceblue;
-
-     
 }
+.sobre-mim{
+    justify-content: end;
+} 
+.rick{
+    background-color: rgb(192, 13, 13);
+    max-width: 100%;
+    padding: 180px;
+    margin: 180px;
+    width: 180px;
+    height: 180px;
+}
+
