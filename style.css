@@ -54,14 +54,12 @@ a {
 
 .texto1 {
     font-size: 48px;
-    padding: 25px 25px 0px 25px;
-
-
+    padding: 20px 0px;
 }
 
 .texto2 {
     font-size: 23px;
-    padding: 20px 50px 0px 50px;
+    padding: 20px 0px;
 }
 .apresentacao{
     display:flex ;
@@ -71,18 +69,36 @@ a {
 }
 .redes{
     display: flex;
+    padding: 20px 0px;
+    gap: 16px;
 }
-.rede{
+.svg-rede-social{
     border: 2px black solid ;
-     padding: 20px;
+    padding: 20px;
     border-radius: 5px;
-     
+    color: black;
 }
 
-.rede:hover{
-    background-color: rgb(94, 231, 14);
-color: aliceblue;
+.svg-rede-social:hover{
+    background-color: black;
+    color: white;
 }
+.svg-habilidades {
+    border: 2px black solid ;
+    padding: 24px;
+    border-radius: 5px;
+    color: black;
+}
+
+.svg-habilidades:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
 .sobre-mim{
     display: flex;
 gap: 20px;
@@ -98,24 +114,17 @@ padding-top: 20px;
 .titulo{
     font-size: 55px;
     text-align: center;
+    padding: 20px 0px;
 }
 .sobre-mim-imagem{
     width: 100%;
+padding: 0px 50px;
 }
 .projeto{
     justify-content: center;
     font-size: 44px;
     margin-left: 400px;
     margin-right: 500px;
-    color: #ffffff;
-}
-.meus-projetos{
-    background-color: #0c0c0c;
-
-}
-.texto-unibave{
-    color: #ffffff;
-    font-size: 30px;
 }
 .habilidade{
     display: flex;
@@ -126,16 +135,19 @@ padding-top: 20px;
 }
 .experiencia{
     background-color: #0c0c0c;
-    padding: 100px 100px 100px 100px;
+    padding:48px;
+    display: block;
 }
-.minhas-experiencias{
+.minhas-experiencia-titulo{
     color: white;
     text-align: center;
-    margin-bottom: 70px;
     font-size: 30px;
+    padding-bottom:80px;
 }
 .ferramenta{
-width: 2%;
+width: 5%;
+justify-content: space-between;
+
 }
 .mecanica{
     color: #ffffff;
@@ -143,13 +155,38 @@ width: 2%;
     
 }
 .exp1{
-    border: 2px  white solid;
+    border: 1px  white solid;
    display: flex;
     border-radius: 5px;
     gap: 10px;
     padding:10px;
+   
 }
 .text-mecan{
     color: #ffffff;
     font-size: 15px;
+}
+.minhas-experiencias{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.img-unibave{
+    border-radius: 13%;
+    padding: 20px 20px;
+}
+.texto-unibave{
+    color: #ffffff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+.meus-projetos{
+    background-color: #0c0c0c;
+    color: white;
+}
+.projetos{
+    display: flex;
+    gap: 40px;
 }
